@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FORM</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-image: url(background.jpg);
+            background-size: cover;
+            font-family: sans-serif;
+        }
+        .title{
+            text-align: center;
+            padding: 50px 0 20px;
+        }
+        .title h1{
+            margin: 0;
+            padding: 0;
+            color: white;
+            text-transform: uppercase;
+            font-size: 36px;
+        }
+        .container
+        {
+           width: 50%;
+           height: 400px;
+           background-image: url(background.jpg);
+           margin: 0 auto;
+            border: 2px solid #fff;
+            box-shadow: 0 15px 40px rgba(0,0,0,.5);
+            }
+        .container .left{
+            float: left;
+            width: 50%;
+            height: 400px;
+            background-image: url(HarryPotter_WB_F4_HarryPotterMidshot_Promo_080615_Port.jpg);
+            background-size: cover;
+            box-sizing: border-box;
+        }
+        .container .right{
+            float: right;
+            width: 50%;
+            height: 400px;
+            box-sizing: border-box;
+        }
+        .formBox{
+            width: 100%;
+            padding: 80px 40px;
+            box-sizing: border-box;
+            height: 400px;
+            background: #fff;
+        }
+        .formBox p{
+               margin: 0;
+               padding: 0;
+               font-weight: bold;
+                color: #a6af13;
+            }
+        .formBox input
+        {   
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .formBox input[type="text"],
+        .formBox input[type="password"]
+        {
+            border: none;
+            border-bottom: 2px solid #a6af13;
+            outline: none;
+            height: 40px;
+        }
+        .formBox input[type="text"]:focus,
+        .formBox input[type="password"]:focus
+        {
+             border-bottom: 2px solid #262626;
+        }
+        .formBox input[type="submit"]
+        {
+            border: none;
+            outline: none;
+            height: 40px;
+            color: #fff;
+            background-color: #262626;
+            cursor: pointer;
+        }
+        
+        .formBox input[type="submit"]:hover
+        {
+            background-color: #a6af13;
+        }
+        .formBox a
+        {
+            color: #262626;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        footer{
+    padding: 20px;
+    margin-top: 148px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+}
+        </style>
+</head>
+<body>
+    <div class="title"><h1>Sign In Form</h1></div>
+    <div class="container">
+        <div class="left"></div>
+        <div class="right">
+            <div class="formBox">
+                <form>
+                    <p>Username</p>
+                    <input type="text" name="" placeholder="abhishek">
+                    <p>Password</p>
+                    <input type="password" name="" placeholder=".......">
+                    <input type="submit" name="" value="Sign In">
+                    <br>
+                    <a href="#">Forgot Password</a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+       <p>Hogwarts School Of Witchcraft and Wizardry, Copyright &copy; 2019</p>
+   </footer>
+</body>
+</html>
